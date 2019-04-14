@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerSchool", "SummerScool\SummerSchool.csproj", "{65B044C3-0FEA-4096-B3C0-482E92EA6CFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SummerScool.Tests", "SummerScool.Tests\SummerScool.Tests.csproj", "{AF1AE707-FF65-4B34-8899-00A05A24A1E9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65B044C3-0FEA-4096-B3C0-482E92EA6CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65B044C3-0FEA-4096-B3C0-482E92EA6CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65B044C3-0FEA-4096-B3C0-482E92EA6CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65B044C3-0FEA-4096-B3C0-482E92EA6CFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1AE707-FF65-4B34-8899-00A05A24A1E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1AE707-FF65-4B34-8899-00A05A24A1E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1AE707-FF65-4B34-8899-00A05A24A1E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1AE707-FF65-4B34-8899-00A05A24A1E9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {175E5A10-9449-49B8-81A8-440670C7A63D}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+﻿<ul class="nav navbar-nav navbar-right">
+    @if (Session["UserMail"] != null && Session["UserId"] != null)// @ reprezinta cod scris in C# in html
+    {
+        <li>@Html.ActionLink("Felicitari " + Session["UserMail"], "Edit", "Users", new { Id = Session["UserId"] }, null)</li>
+
+    }
+
+
+
+    else
+    {
+            <li>@Html.ActionLink("Register", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+            <li>@Html.ActionLink("Log in", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    }
+</ul>
